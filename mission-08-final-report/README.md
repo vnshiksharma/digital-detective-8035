@@ -43,6 +43,8 @@ git branch -a
 
 | Short hash | Commit message |
 |------------|---------------|
+| `16240c5` | Expand Mission 6 README to fully cover all PDF tasks |
+| `75b2b21` | Complete final report and verify assignment submission |
 | `6100e25` | Explain networking concepts and website communication |
 | `650b8b1` | Complete Git and GitHub collaboration mission |
 | `c32113f` | Build number converter and practise data representation |
