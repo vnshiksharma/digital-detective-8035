@@ -44,6 +44,14 @@ You will be prompted to enter a decimal integer. The program prints its binary a
 
 Through this assignment I practised real Terminal commands, understood how an operating system manages processes and files, wrote and ran Python programs, performed number-system conversions by hand and in code, and practised the full Git workflow including branching and pull requests.
 
+## My Learning
+
+Working through Missions 0–6 taught me several things that surprised me:
+
+- **`>>` vs `>`** — Using `>>` appends to a file without erasing what is already there, while `>` replaces the entire contents. I learned this during Mission 2 when practising file edits in the terminal. Getting these mixed up would silently delete work.
+- **Process IDs (PIDs)** — The operating system assigns a unique PID to every running program. This is how it manages hundreds of processes at the same time — each one has a unique number so the OS can pause, resume, or stop exactly the right one. I observed this in Mission 3 when inspecting the running process list.
+- **Git staging area** — Git's staging area (the "index") means you can change many files but commit only the ones you choose. This keeps the commit history meaningful. I had assumed `git commit` automatically included all changed files, but it only includes what you have staged with `git add`.
+
 ## Commit Note
 
 Each mission was documented and committed separately with a meaningful commit message, so the commit history shows the progress through the assignment step by step.
